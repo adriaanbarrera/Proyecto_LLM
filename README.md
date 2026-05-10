@@ -41,6 +41,7 @@ El asistente es capaz de:
 - Cuenta de Google
 - API key de Google Gemini (gratuita en [aistudio.google.com](https://aistudio.google.com))
 ### Pasos
+- Descargar los PDFs utilizados para el aprendizaje del modelo
  
 1. Abre `asistente_experto.ipynb` en [Google Colab](https://colab.research.google.com)
 2. En el panel izquierdo, clic en el icono 🔑 (Secrets)
