@@ -50,7 +50,25 @@ El asistente es capaz de:
 6. Ejecuta todas las celdas en orden: **Entorno de ejecución → Ejecutar todo**
  
 ---
+
+ ## Arquitectura
  
+```
+Pregunta del usuario
+        ↓
+  Nodo: Recuperar
+  (ChromaDB busca los 4 fragmentos más relevantes)
+        ↓
+  Nodo: Generar
+  (Gemini genera respuesta con el contexto recuperado)
+        ↓
+  Respuesta al usuario
+        ↑
+  Historial de conversación (memoria acumulada)
+```
+ 
+---
+
 ## Justificación del System Prompt
  
 Se diseñó un prompt con **dos modos de respuesta diferenciados**:
