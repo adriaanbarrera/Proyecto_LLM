@@ -20,7 +20,7 @@ El asistente es capaz de:
 | Componente | Tecnología |
 |---|---|
 | LLM | Google Gemini 2.0 Flash |
-| Embeddings | sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (HuggingFace) |
+| Embeddings | models/gemini-embedding-001 |
 | Base de datos vectorial | ChromaDB |
 | Framework agente | LangChain + LangGraph |
 | Entorno de ejecución | Google Colab |
